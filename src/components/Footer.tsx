@@ -6,9 +6,6 @@ import room from "@/assets/welcome-room.jpg";
 import dining from "@/assets/welcome-dining.jpg";
 import events from "@/assets/welcome-events.jpg";
 import location from "@/assets/welcome-location.jpg";
-import dining from "@/assets/welcome-dining.jpg";
-import events from "@/assets/welcome-events.jpg";
-import location from "@/assets/welcome-location.jpg";
 
 const tiles = [room, dining, events, location];
 
