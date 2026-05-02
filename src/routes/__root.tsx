@@ -29,16 +29,22 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Shivers — Oasis of Luxury | Stays, Dining & Events in North Goa" },
+      { name: "description", content: "Shivers is a luxury hospitality destination in North Goa offering premium rooms, fine dining at Shivers Garden Restaurant, and unforgettable events." },
+      { name: "author", content: "Shivers" },
+      { property: "og:title", content: "Shivers — Oasis of Luxury" },
+      { property: "og:description", content: "Luxury stays, exquisite dining, unforgettable moments in North Goa." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
