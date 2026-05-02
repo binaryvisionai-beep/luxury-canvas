@@ -2,14 +2,10 @@ import { Link } from "@tanstack/react-router";
 import { Facebook, Instagram, Twitter, Youtube, Phone, Mail, MapPin } from "lucide-react";
 import { Logo } from "./Logo";
 
-const insta = [
-  "/welcome-room.jpg",
-  "/welcome-dining.jpg",
-  "/welcome-events.jpg",
-  "/welcome-location.jpg",
-];
-
 import room from "@/assets/welcome-room.jpg";
+import dining from "@/assets/welcome-dining.jpg";
+import events from "@/assets/welcome-events.jpg";
+import location from "@/assets/welcome-location.jpg";
 import dining from "@/assets/welcome-dining.jpg";
 import events from "@/assets/welcome-events.jpg";
 import location from "@/assets/welcome-location.jpg";
