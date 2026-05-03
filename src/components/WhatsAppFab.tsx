@@ -4,7 +4,9 @@ import { MessageCircle } from "lucide-react";
 export function WhatsAppFab() {
   return (
     <motion.a
-      href="#"
+      href="https://wa.me/919860698281"
+      target="_blank"
+      rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
