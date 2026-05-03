@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 import { WhatsAppFab } from "./WhatsAppFab";
+import { Chatbot } from "./Chatbot";
 
 export function SiteLayout({ children }: { children: ReactNode }) {
   return (
@@ -10,6 +11,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       <main className="flex-1 pt-20">{children}</main>
       <Footer />
       <WhatsAppFab />
+      <Chatbot />
     </div>
   );
 }
