@@ -38,8 +38,6 @@ export function HomePage() {
               className={`absolute inset-0 h-full w-full object-cover ${reduce ? "" : "ken-burns"}`}
               width={1920}
               height={1080}
-              fetchPriority="high"
-              decoding="async"
             />
             <div className="absolute inset-0" style={{ background: "var(--gradient-overlay)" }} />
 
