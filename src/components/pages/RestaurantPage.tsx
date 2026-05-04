@@ -27,6 +27,7 @@ const insta = [seafood, curry, continental, dessert, restaurantHero, seafood];
 
 export function RestaurantPage() {
   const [active, setActive] = useState(0);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const t = setInterval(() => setActive((a) => (a + 1) % reviews.length), 4500);
