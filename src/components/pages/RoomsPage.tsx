@@ -119,7 +119,7 @@ export function RoomsPage() {
               Experience unmatched comfort and luxury in our beautifully designed rooms.
             </p>
             <Link
-              to="/rooms"
+              to="/book"
               className="mt-6 inline-flex w-fit items-center gap-2 rounded-md bg-gradient-gold px-6 py-3 text-sm font-semibold text-white shadow-card hover:shadow-luxury hover:-translate-y-0.5 transition-all"
             >
               Book Your Stay
@@ -189,9 +189,9 @@ export function RoomsPage() {
                     From <span className="font-semibold text-gold">{r.priceFrom}</span>
                     <span className="text-ink-soft"> /Night</span>
                   </p>
-                  <button className="mt-4 w-full inline-flex items-center justify-center gap-1 rounded-md bg-gradient-gold px-4 py-2.5 text-xs font-semibold text-white shadow-card hover:shadow-luxury hover:-translate-y-0.5 transition-all">
+                  <Link to="/book" className="mt-4 w-full inline-flex items-center justify-center gap-1 rounded-md bg-gradient-gold px-4 py-2.5 text-xs font-semibold text-white shadow-card hover:shadow-luxury hover:-translate-y-0.5 transition-all">
                     Book Now <ChevronRight size={14} />
-                  </button>
+                  </Link>
                 </div>
               </motion.article>
             ))}
