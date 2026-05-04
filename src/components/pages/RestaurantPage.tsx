@@ -226,6 +226,8 @@ export function RestaurantPage() {
           </div>
         </div>
       </section>
+
+      <MenuFlipbook open={menuOpen} onClose={() => setMenuOpen(false)} />
     </>
   );
 }
