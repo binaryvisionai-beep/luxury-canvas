@@ -166,4 +166,29 @@
     transform: scaleX(1);
     transform-origin: left;
   }
+
+  /* Flipbook luxury tokens */
+  .perspective-book { perspective: 2400px; perspective-origin: 50% 50%; }
+  .preserve-3d { transform-style: preserve-3d; }
+  .backface-hidden { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+  .text-gradient-gold {
+    background: linear-gradient(135deg, oklch(0.85 0.1 80), oklch(0.68 0.15 65));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  .font-display { font-family: "Cormorant Garamond", "Playfair Display", Georgia, serif; }
+  .font-script { font-family: "Dancing Script", "Cormorant Garamond", cursive; }
+}
+
+:root {
+  --champagne: oklch(0.88 0.06 80);
+  --gold-bright: oklch(0.78 0.13 75);
+  --gold-deep-luxe: oklch(0.62 0.14 65);
+  --brown-deep: oklch(0.28 0.04 45);
+  --pearl: oklch(0.97 0.012 80);
+  --gradient-gold-luxe: linear-gradient(135deg, oklch(0.85 0.1 80), oklch(0.68 0.15 65));
+  --shadow-luxe: 0 30px 80px -20px oklch(0.28 0.04 45 / 0.35);
+  --shadow-gold-glow: 0 10px 40px -10px oklch(0.72 0.18 70 / 0.5);
 }
