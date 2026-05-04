@@ -7,6 +7,7 @@ import seafood from "@/assets/dish-seafood.jpg";
 import curry from "@/assets/dish-curry.jpg";
 import continental from "@/assets/dish-continental.jpg";
 import dessert from "@/assets/dish-dessert.jpg";
+import { MenuFlipbook } from "@/components/MenuFlipbook";
 
 const specialties = [
   { src: seafood, t: "Seafood Delicacies", icon: Fish },
@@ -26,6 +27,7 @@ const insta = [seafood, curry, continental, dessert, restaurantHero, seafood];
 
 export function RestaurantPage() {
   const [active, setActive] = useState(0);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const t = setInterval(() => setActive((a) => (a + 1) % reviews.length), 4500);
@@ -64,7 +66,7 @@ export function RestaurantPage() {
               <button className="inline-flex items-center justify-center rounded-md bg-gradient-gold px-6 py-3 text-sm font-semibold text-white shadow-card hover:shadow-luxury hover:-translate-y-0.5 transition-all">
                 Reserve Table
               </button>
-              <button className="inline-flex items-center justify-center rounded-md border border-gold px-6 py-3 text-sm font-semibold text-gold hover:bg-gold hover:text-white transition-all">
+              <button onClick={() => setMenuOpen(true)} className="inline-flex items-center justify-center rounded-md border border-gold px-6 py-3 text-sm font-semibold text-gold hover:bg-gold hover:text-white transition-all">
                 View Menu
               </button>
             </div>
@@ -224,6 +226,8 @@ export function RestaurantPage() {
           </div>
         </div>
       </section>
+
+      <MenuFlipbook open={menuOpen} onClose={() => setMenuOpen(false)} />
     </>
   );
 }
