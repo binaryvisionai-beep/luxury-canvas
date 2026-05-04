@@ -59,7 +59,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <Link
-            to="/rooms"
+            to="/book"
             className="hidden sm:inline-flex items-center justify-center rounded-md bg-gradient-gold px-6 py-2.5 text-sm font-semibold text-white shadow-card transition-all hover:shadow-luxury hover:-translate-y-0.5 active:translate-y-0"
           >
             Book Now

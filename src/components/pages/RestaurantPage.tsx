@@ -63,9 +63,9 @@ export function RestaurantPage() {
               A perfect blend of cosy ambience, warm hospitality and delicious cuisine made with love.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <button className="inline-flex items-center justify-center rounded-md bg-gradient-gold px-6 py-3 text-sm font-semibold text-white shadow-card hover:shadow-luxury hover:-translate-y-0.5 transition-all">
+              <Link to="/reserve" className="inline-flex items-center justify-center rounded-md bg-gradient-gold px-6 py-3 text-sm font-semibold text-white shadow-card hover:shadow-luxury hover:-translate-y-0.5 transition-all">
                 Reserve Table
-              </button>
+              </Link>
               <button onClick={() => setMenuOpen(true)} className="inline-flex items-center justify-center rounded-md border border-gold px-6 py-3 text-sm font-semibold text-gold hover:bg-gold hover:text-white transition-all">
                 View Menu
               </button>
@@ -128,9 +128,9 @@ export function RestaurantPage() {
               Book your table now and enjoy a memorable dining experience.
             </p>
           </div>
-          <button className="inline-flex items-center justify-center rounded-md bg-gradient-gold px-6 py-3 text-sm font-semibold text-white shadow-card hover:shadow-luxury hover:-translate-y-0.5 transition-all w-fit">
+          <Link to="/reserve" className="inline-flex items-center justify-center rounded-md bg-gradient-gold px-6 py-3 text-sm font-semibold text-white shadow-card hover:shadow-luxury hover:-translate-y-0.5 transition-all w-fit">
             Reserve Now
-          </button>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

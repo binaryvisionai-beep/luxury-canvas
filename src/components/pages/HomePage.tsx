@@ -245,14 +245,14 @@ export function HomePage() {
               t: "Shivers Oasis Luxury Rooms",
               s: "Elegant rooms designed for your comfort and relaxation.",
               cta: "Book Now",
-              to: "/rooms",
+              to: "/book",
             },
             {
               src: wDining,
               t: "Shivers Garden Restaurant",
               s: "A perfect blend of ambience and flavors.",
               cta: "Reserve Now",
-              to: "/restaurant",
+              to: "/reserve",
             },
             {
               src: offerFood,
