@@ -66,7 +66,7 @@ export function RestaurantPage() {
               <button className="inline-flex items-center justify-center rounded-md bg-gradient-gold px-6 py-3 text-sm font-semibold text-white shadow-card hover:shadow-luxury hover:-translate-y-0.5 transition-all">
                 Reserve Table
               </button>
-              <button className="inline-flex items-center justify-center rounded-md border border-gold px-6 py-3 text-sm font-semibold text-gold hover:bg-gold hover:text-white transition-all">
+              <button onClick={() => setMenuOpen(true)} className="inline-flex items-center justify-center rounded-md border border-gold px-6 py-3 text-sm font-semibold text-gold hover:bg-gold hover:text-white transition-all">
                 View Menu
               </button>
             </div>
