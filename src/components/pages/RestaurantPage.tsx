@@ -7,6 +7,7 @@ import seafood from "@/assets/dish-seafood.jpg";
 import curry from "@/assets/dish-curry.jpg";
 import continental from "@/assets/dish-continental.jpg";
 import dessert from "@/assets/dish-dessert.jpg";
+import { MenuFlipbook } from "@/components/MenuFlipbook";
 
 const specialties = [
   { src: seafood, t: "Seafood Delicacies", icon: Fish },
