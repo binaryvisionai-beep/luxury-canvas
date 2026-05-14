@@ -1,0 +1,17 @@
+{
+  "name": "Shivers — Oasis of Luxury",
+  "short_name": "Shivers",
+  "description": "Luxury stays, exquisite dining, and unforgettable events in North Goa.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#faf6ee",
+  "theme_color": "#c9a14a",
+  "categories": ["travel", "lifestyle", "food"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
