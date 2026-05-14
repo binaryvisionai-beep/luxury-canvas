@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Offline — Shivers</title>
+    <meta name="theme-color" content="#c9a14a" />
+    <style>
+      :root { color-scheme: light; }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; height: 100%; }
+      body {
+        font-family: "Inter", system-ui, -apple-system, Segoe UI, sans-serif;
+        background: linear-gradient(180deg, #faf6ee 0%, #f1e7d2 100%);
+        color: #2a2520;
+        display: flex; align-items: center; justify-content: center;
+        min-height: 100vh; padding: 24px;
+        text-align: center;
+      }
+      .card { max-width: 460px; }
+      h1 {
+        font-family: "Playfair Display", Georgia, serif;
+        font-size: clamp(28px, 5vw, 40px);
+        margin: 0 0 12px;
+        background: linear-gradient(135deg, #d4b270, #a07c2a);
+        -webkit-background-clip: text; background-clip: text; color: transparent;
+      }
+      p { color: #6b5e4d; line-height: 1.6; margin: 0 0 24px; font-size: 15px; }
+      a {
+        display: inline-block; padding: 12px 28px; border-radius: 8px;
+        background: linear-gradient(135deg, #d4b270, #a07c2a); color: #fff;
+        text-decoration: none; font-weight: 600; letter-spacing: 0.02em;
+        box-shadow: 0 8px 24px -8px rgba(160, 124, 42, 0.5);
+      }
+      .mark { font-family: "Playfair Display", Georgia, serif; font-size: 56px; color: #c9a14a; margin-bottom: 8px; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="mark">S</div>
+      <h1>You're offline</h1>
+      <p>It looks like you've lost your connection. Reconnect to continue your Shivers experience.</p>
+      <a href="/" onclick="location.reload(); return false;">Try again</a>
+    </div>
+  </body>
+</html>
